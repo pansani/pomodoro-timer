@@ -54,10 +54,18 @@ export const TaskInput = styled(BaseInput)`
   &::-webkit-calendar-picker-indicator {
     display: none !important;
   }
+
+  &::-webkit-input-placeholder {
+    font-size: 1rem;
+  }
 `;
 
 export const MinutesAmountInput = styled(BaseInput)`
   width: 4rem;
+
+  &::-webkit-input-placeholder {
+    text-align: center;
+  }
 `;
 
 export const CountdownContainer = styled.div`
